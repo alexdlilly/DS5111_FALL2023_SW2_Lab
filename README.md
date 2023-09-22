@@ -4,6 +4,7 @@
 3.   I don't quite know the answer to this, and now I'm worried my run command in the makefile is incorrect. But my code passes the test.
 4.   I would make run a .PHONY command so that it runs regardless of a name collision.
 5.   The first line imports the python package "sys". It seems like the second line just appends "." to the path.
+   
 EXTRA CREDIT
 1. tree -I *env
 2. The **/ indicates to ignore files with the pattern *__pycache__ across ALL directories.
